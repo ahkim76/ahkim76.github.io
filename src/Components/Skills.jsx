@@ -7,9 +7,10 @@ function Skills() {
         <div className="skills-group">
           <h3>Languages</h3>
           <div className="skills-chips">
+            <span>Python</span>
             <span>Go</span>
             <span>Java</span>
-            <span>Python</span>
+            <span>HTML/CSS</span>
             <span>JavaScript</span>
             <span>SQL</span>
           </div>
@@ -18,10 +19,13 @@ function Skills() {
         <div className="skills-group">
           <h3>Frameworks & Libraries</h3>
           <div className="skills-chips">
-            <span>React</span>
-            <span>Spring Boot</span>
-            <span>Express</span>
+            <span>React.js</span>
+            <span>Express.js</span>
             <span>Node.js</span>
+            <span>Next.js</span>
+            <span>Spring Boot</span>
+            <span>Django</span>
+            <span>Gin</span>
           </div>
         </div>
 
@@ -30,9 +34,13 @@ function Skills() {
           <div className="skills-chips">
             <span>Docker</span>
             <span>Kubernetes</span>
+            <span>Terraform</span>
+            <span>Helm</span>
             <span>PostgreSQL</span>
             <span>Git</span>
             <span>GCP</span>
+            <span>AWS</span>
+            <span>Azure</span>
           </div>
         </div>
 
@@ -42,6 +50,8 @@ function Skills() {
             <span>REST APIs</span>
             <span>Distributed Systems</span>
             <span>CI/CD</span>
+            <span>Cloud Computing</span>
+            <span>Testing</span>
           </div>
         </div>
       </div>
