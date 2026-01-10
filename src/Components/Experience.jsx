@@ -5,18 +5,37 @@ function Experience() {
       <ul>
         <div className="experience-item">
           <div className="experience-heading">
+            <h3 className="company">Wells Fargo</h3>
+
+            <div className="role-row">
+              <span className="role">Software Engineer Intern</span>
+              <span className="dot"></span>
+              <span className="team"></span>
+              <span className="date">Summer 2026</span>
+            </div>
+          </div>
+
+          <ul className="experience-bullets">
+            <li>Incoming SWE Intern for Summer 2026</li>
+          </ul>
+        </div>
+        <div className="experience-item">
+          <div className="experience-heading">
             <h3 className="company">Stripe</h3>
 
             <div className="role-row">
               <span className="role">Software Engineer Intern</span>
               <span className="dot">•</span>
-              <span className="team">Service Infrastructure Team</span>
+              <span className="team">Developer Infrastructure Team</span>
               <span className="date">Winter 2026</span>
             </div>
           </div>
 
           <ul className="experience-bullets">
-            <li>Starting in 2 weeks!</li>
+            <li>
+              Will build and scale Stripe's internal knowledge and collaboration
+              platforms, used by 99% of Stripe engineers.
+            </li>
           </ul>
         </div>
 
@@ -108,6 +127,30 @@ function Experience() {
             <li>
               Automated GCP deployment using Terraform + Helm, cutting setup
               time by 50% and improving CI/CD.
+            </li>
+          </ul>
+        </div>
+
+        <div className="experience-item">
+          <div className="experience-heading">
+            <h3 className="company">UNC College of Arts and Sciences</h3>
+
+            <div className="role-row">
+              <span className="role">Information Technology Analyst</span>
+              <span className="dot">•</span>
+              <span className="team">OASIS</span>
+              <span className="date">Work-Study 2024-2025</span>
+            </div>
+          </div>
+
+          <ul className="experience-bullets">
+            <li>
+              Provided Tier 1 technical support to faculty, professors, and
+              students in the Arts and Sciences department.
+            </li>
+            <li>
+              Created clear technical documentation and knowledge base articles,
+              improving resolution speed and reducing repeated support requests.
             </li>
           </ul>
         </div>

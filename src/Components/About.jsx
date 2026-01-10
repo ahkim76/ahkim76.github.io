@@ -16,9 +16,9 @@ function About() {
         Stripe.
       </p>
       <p>
-        Outside of coding, I enjoy playing the drums, training SBD (squat,
-        bench, deadlift), and studying reformed theology. I care a lot about
-        getting better and staying curious.
+        Outside of coding, I enjoy playing the drums, training compound lifts,
+        and studying reformed theology. I care a lot about continuous
+        improvement and staying curious.
       </p>
       <div className="hero-buttons">
         <a href="/resume.pdf" className="btn" target="_blank" rel="noreferrer">
@@ -31,6 +31,14 @@ function About() {
           rel="noreferrer"
         >
           GitHub
+        </a>
+        <a
+          href="https://linkedin.com/alex-h-kim"
+          className="btn-outline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
         </a>
         <a
           href="https://leetcode.com/u/poopitypoop/"

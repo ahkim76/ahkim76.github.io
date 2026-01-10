@@ -45,13 +45,15 @@ function Skills() {
         </div>
 
         <div className="skills-group">
-          <h3>Other</h3>
+          <h3>Concepts</h3>
           <div className="skills-chips">
             <span>REST APIs</span>
             <span>Distributed Systems</span>
             <span>CI/CD</span>
             <span>Cloud Computing</span>
-            <span>Testing</span>
+            <span>Unit Testing</span>
+            <span>Integration Testing</span>
+            <span>End-to-End Testing</span>
           </div>
         </div>
       </div>

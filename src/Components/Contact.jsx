@@ -11,14 +11,7 @@ function Contact() {
         <a href="mailto:youremail@unc.edu" className="btn contact-linka">
           Email me
         </a>
-        <a
-          href="https://www.linkedin.com/in/alex-h-kim"
-          target="_blank"
-          rel="noreferrer"
-          className="btn-outline"
-        >
-          LinkedIn
-        </a>
+
         <a
           href="https://github.com/ahkim76"
           target="_blank"
@@ -26,6 +19,14 @@ function Contact() {
           className="btn-outline"
         >
           GitHub
+        </a>
+        <a
+          href="https://www.linkedin.com/in/alex-h-kim"
+          target="_blank"
+          rel="noreferrer"
+          className="btn-outline"
+        >
+          LinkedIn
         </a>
       </div>
     </section>
