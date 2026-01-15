@@ -10,10 +10,10 @@ function About() {
         correctly under load.
       </p>
       <p>
-        Previously, I worked on microservice deployments, Kubernetes
-        containerization, cloud infra, and large data systems across companies
-        like Dematic and Toshiba. I'm currently working on infrastructure at
-        Stripe.
+        I'm currently working on developer infrastructure at Stripe, building
+        internal tools used by thousands of engineers. This summer, I'll be at
+        Apple working on backend infrastructure for services behind the App
+        Store, Apple Music, Podcasts, etc.
       </p>
       <p>
         Outside of coding, I enjoy playing the drums, training compound lifts,

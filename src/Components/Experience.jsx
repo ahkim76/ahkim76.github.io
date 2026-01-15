@@ -5,12 +5,12 @@ function Experience() {
       <ul>
         <div className="experience-item">
           <div className="experience-heading">
-            <h3 className="company">Wells Fargo</h3>
+            <h3 className="company">Apple</h3>
 
             <div className="role-row">
               <span className="role">Software Engineer Intern</span>
-              <span className="dot"></span>
-              <span className="team"></span>
+              <span className="dot">•</span>
+              <span className="team">ASE Commerce Engineering Team</span>
               <span className="date">Summer 2026</span>
             </div>
           </div>
@@ -27,7 +27,7 @@ function Experience() {
               <span className="role">Software Engineer Intern</span>
               <span className="dot">•</span>
               <span className="team">Developer Infrastructure Team</span>
-              <span className="date">Winter 2026</span>
+              <span className="date">Winter/Spring 2026</span>
             </div>
           </div>
 
