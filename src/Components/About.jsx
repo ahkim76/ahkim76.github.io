@@ -14,7 +14,7 @@ function About() {
         product teams. This summer, I'll be at Apple working on backend
         infrastructure for services behind the App Store, Apple Music, Podcasts,
         etc. These services include all commerce transactions and subscription
-        lifecycle management
+        lifecycle management.
       </p>
       <div className="hero-buttons">
         <a href="/resume.pdf" className="btn" target="_blank" rel="noreferrer">
