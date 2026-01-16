@@ -8,7 +8,7 @@ function Experience() {
             <h3 className="company">Apple</h3>
 
             <div className="role-row">
-              <span className="role">Software Engineer Intern</span>
+              <span className="role">Incoming Software Engineer Intern</span>
               <span className="dot">•</span>
               <span className="team">ASE Commerce Engineering Team</span>
               <span className="date">Summer 2026</span>
@@ -16,7 +16,11 @@ function Experience() {
           </div>
 
           <ul className="experience-bullets">
-            <li>Incoming SWE Intern for Summer 2026</li>
+            <li>
+              Will build and maintain the systems that manage user accounts,
+              enable seamless playback, and ensure a smooth and reliable
+              experience for users worldwide.
+            </li>
           </ul>
         </div>
         <div className="experience-item">
@@ -33,8 +37,8 @@ function Experience() {
 
           <ul className="experience-bullets">
             <li>
-              Will build and scale Stripe's internal knowledge and collaboration
-              platforms, used by 99% of Stripe engineers.
+              Developing and scaling Stripe's internal knowledge and
+              collaboration platforms, used by 99% of Stripe engineers.
             </li>
           </ul>
         </div>

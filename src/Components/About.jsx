@@ -11,14 +11,11 @@ function About() {
       </p>
       <p>
         I'm currently working on developer infrastructure at Stripe, building
-        internal tools used by thousands of engineers. This summer, I'll be at
-        Apple working on backend infrastructure for services behind the App
-        Store, Apple Music, Podcasts, etc.
-      </p>
-      <p>
-        Outside of coding, I enjoy playing the drums, training compound lifts,
-        and studying reformed theology. I care a lot about continuous
-        improvement and staying curious.
+        internal tools and search engines used by thousands of engineers and
+        product teams. This summer, I'll be at Apple working on backend
+        infrastructure for services behind the App Store, Apple Music, Podcasts,
+        etc. These services includ all commerce transactions and subscription
+        lifecycle management
       </p>
       <div className="hero-buttons">
         <a href="/resume.pdf" className="btn" target="_blank" rel="noreferrer">
