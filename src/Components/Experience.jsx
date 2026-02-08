@@ -17,9 +17,8 @@ function Experience() {
 
           <ul className="experience-bullets">
             <li>
-              Will build and maintain the systems that manage user accounts,
-              enable seamless playback, and ensure a smooth and reliable
-              experience for users worldwide.
+              Will work on backend infrastructure maintaining the commerce
+              systems for Apple media products.
             </li>
           </ul>
         </div>
@@ -37,8 +36,18 @@ function Experience() {
 
           <ul className="experience-bullets">
             <li>
-              Developing and scaling Stripe's internal knowledge and
-              collaboration platforms, used by 99% of Stripe engineers.
+              Built Ruby + GraphQL evaluation infra for Stripe’s internal search
+              engines used by 99% of engineers.
+            </li>
+            <li>
+              Implemented a repeatable offline eval harness to compare response
+              quality across models, prompts, and RAG retrieval configs,
+              enabling safe iteration.
+            </li>
+            <li>
+              Designed LLM - as - judge scoring with baseline diffing over a
+              100+ query dataset in MongoDB, informing production search tuning
+              and platform adoption.
             </li>
           </ul>
         </div>
