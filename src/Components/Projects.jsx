@@ -1,9 +1,35 @@
+import { useEffect, useRef } from "react";
+
 function Projects() {
+  const gridRef = useRef(null);
+
+  useEffect(() => {
+    const root = gridRef.current;
+    if (!root) return;
+
+    const cards = Array.from(root.querySelectorAll(".project-card"));
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("in-view");
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.15 },
+    );
+
+    cards.forEach((card) => observer.observe(card));
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section id="projects" className="section">
       <h2>Projects</h2>
 
-      <div className="projects-grid">
+      <div className="projects-grid" ref={gridRef}>
         <div className="project-card">
           <div className="project-header">
             <h3 className="project-title">Distributed Job Queue</h3>
@@ -34,8 +60,9 @@ function Projects() {
               href="https://github.com/your-handle/job-queue"
               target="_blank"
               rel="noreferrer"
+              className="project-link"
             >
-              GitHub →
+              GitHub <span className="arrow">→</span>
             </a>
           </div>
         </div>
@@ -67,14 +94,16 @@ function Projects() {
 
           <div className="project-links">
             <a
-              href="https://github.com/your-handle/job-queue"
+              href="https://github.com/your-handle/heelsync"
               target="_blank"
               rel="noreferrer"
+              className="project-link"
             >
-              GitHub →
+              GitHub <span className="arrow">→</span>
             </a>
           </div>
         </div>
+
         <div className="project-card">
           <div className="project-header">
             <h3 className="project-title">Powerlifting Performance Tracker</h3>
@@ -83,28 +112,29 @@ function Projects() {
 
           <p className="project-description">
             First "real-world" project I built in Summer 2024 after taking a
-            Data Structures class. Desktop app that features a GPT-powered
-            chatbot and powerlifting data analysis.
+            Data Structures class. Desktop app featuring a GPT-powered chatbot
+            and powerlifting data analysis.
           </p>
 
           <ul className="project-bullets">
             <li>
-              Supports creating, reading, updating, and deleting workouts +
-              lifts. Stored in SQLite and hashmaps.
+              Supports CRUD for workouts + lifts, stored in SQLite and in-memory
+              structures.
             </li>
             <li>
-              Uses MVC and Singleton design patterns for modularity across UI,
-              logic, and other layers.
+              Uses MVC and Singleton patterns for modularity across UI and
+              logic.
             </li>
           </ul>
 
           <div className="project-links">
             <a
-              href="https://github.com/your-handle/job-queue"
+              href="https://github.com/your-handle/powerlifting-tracker"
               target="_blank"
               rel="noreferrer"
+              className="project-link"
             >
-              GitHub →
+              GitHub <span className="arrow">→</span>
             </a>
           </div>
         </div>
