@@ -5,7 +5,10 @@ function Experience() {
       <ul>
         <div className="experience-item">
           <div className="experience-heading">
-            <h3 className="company">Apple</h3>
+            <div className="company-row">
+              <img className="company-logo" src="/apple.png" alt="Apple logo" />
+              <h3 className="company">Apple</h3>
+            </div>
 
             <div className="role-row">
               <span className="role">Incoming Software Engineer Intern</span>
@@ -24,7 +27,14 @@ function Experience() {
         </div>
         <div className="experience-item">
           <div className="experience-heading">
-            <h3 className="company">Stripe</h3>
+            <div className="company-row">
+              <img
+                className="company-logo"
+                src="/stripe.png"
+                alt="Stripe logo"
+              />
+              <h3 className="company">Stripe</h3>
+            </div>
 
             <div className="role-row">
               <span className="role">Software Engineer Intern</span>
@@ -54,7 +64,14 @@ function Experience() {
 
         <div className="experience-item">
           <div className="experience-heading">
-            <h3 className="company">Mercor</h3>
+            <div className="company-row">
+              <img
+                className="company-logo"
+                src="/mercor.png"
+                alt="Mercor logo"
+              />
+              <h3 className="company">Mercor</h3>
+            </div>
 
             <div className="role-row">
               <span className="role">Machine Learning Engineer</span>
@@ -80,7 +97,14 @@ function Experience() {
 
         <div className="experience-item">
           <div className="experience-heading">
-            <h3 className="company">Toshiba Global Commerce Solutions</h3>
+            <div className="company-row">
+              <img
+                className="company-logo"
+                src="/toshiba.png"
+                alt="Toshiba logo"
+              />
+              <h3 className="company">Toshiba Global Commerce Solutions</h3>
+            </div>
 
             <div className="role-row">
               <span className="role">Software Engineer Intern</span>
@@ -114,7 +138,14 @@ function Experience() {
 
         <div className="experience-item">
           <div className="experience-heading">
-            <h3 className="company">Dematic</h3>
+            <div className="company-row">
+              <img
+                className="company-logo"
+                src="/dematic.png"
+                alt="Dematic logo"
+              />
+              <h3 className="company">Dematic</h3>
+            </div>
 
             <div className="role-row">
               <span className="role">Software Engineer Intern</span>
@@ -146,7 +177,10 @@ function Experience() {
 
         <div className="experience-item">
           <div className="experience-heading">
-            <h3 className="company">UNC College of Arts and Sciences</h3>
+            <div className="company-row">
+              <img className="company-logo" src="/unc.png" alt="UNC logo" />
+              <h3 className="company">UNC College of Arts and Sciences</h3>
+            </div>
 
             <div className="role-row">
               <span className="role">Information Technology Analyst</span>

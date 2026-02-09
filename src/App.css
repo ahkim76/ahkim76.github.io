@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 .App {
   font-family:
     system-ui,
@@ -406,4 +411,30 @@ main {
 
 .project-links a:hover {
   text-decoration: underline;
+}
+
+.company-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.company-logo {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  opacity: 0.9;
+  filter: grayscale(1);
+}
+
+/* optional: make it pop slightly on hover */
+.experience-item:hover .company-logo {
+  filter: grayscale(0);
+  opacity: 1;
+  transition:
+    filter 0.25s ease,
+    opacity 0.25s ease;
+}
+.company-logo {
+  border-radius: 6px;
 }
