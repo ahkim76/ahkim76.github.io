@@ -2,8 +2,9 @@ function Experience() {
   return (
     <section id="experience" className="section">
       <h2>Experience</h2>
-      <ul>
-        <div className="experience-item">
+
+      <ul className="experience-list">
+        <li className="experience-item">
           <div className="experience-heading">
             <div className="company-row">
               <img className="company-logo" src="/apple.png" alt="Apple logo" />
@@ -24,8 +25,9 @@ function Experience() {
               systems for Apple media products.
             </li>
           </ul>
-        </div>
-        <div className="experience-item">
+        </li>
+
+        <li className="experience-item">
           <div className="experience-heading">
             <div className="company-row">
               <img
@@ -55,14 +57,14 @@ function Experience() {
               enabling safe iteration.
             </li>
             <li>
-              Designed LLM - as - judge scoring with baseline diffing over a
-              100+ query dataset in MongoDB, informing production search tuning
-              and platform adoption.
+              Designed LLM-as-judge scoring with baseline diffing over a 100+
+              query dataset in MongoDB, informing production search tuning and
+              platform adoption.
             </li>
           </ul>
-        </div>
+        </li>
 
-        <div className="experience-item">
+        <li className="experience-item">
           <div className="experience-heading">
             <div className="company-row">
               <img
@@ -77,7 +79,7 @@ function Experience() {
               <span className="role">Machine Learning Engineer</span>
               <span className="dot">•</span>
               <span className="team">Project Aeneas</span>
-              <span className="date">Contract 2025-2026</span>
+              <span className="date">Contract 2025–2026</span>
             </div>
           </div>
 
@@ -93,9 +95,9 @@ function Experience() {
               trajectories by 25%.
             </li>
           </ul>
-        </div>
+        </li>
 
-        <div className="experience-item">
+        <li className="experience-item">
           <div className="experience-heading">
             <div className="company-row">
               <img
@@ -122,7 +124,7 @@ function Experience() {
             </li>
             <li>
               Implemented retrieval-augmented generation (RAG) pipelines via
-              Azure AI Search and LangChain, enabling sub 1s responses across
+              Azure AI Search and LangChain, enabling sub-1s responses across
               200K+ docs and improving support efficiency.
             </li>
             <li>
@@ -134,9 +136,9 @@ function Experience() {
               via documentation + Agile sprints.
             </li>
           </ul>
-        </div>
+        </li>
 
-        <div className="experience-item">
+        <li className="experience-item">
           <div className="experience-heading">
             <div className="company-row">
               <img
@@ -150,7 +152,7 @@ function Experience() {
             <div className="role-row">
               <span className="role">Software Engineer Intern</span>
               <span className="dot">•</span>
-              <span className="team">R&D Mobile Applications Team</span>
+              <span className="team">R&amp;D Mobile Applications Team</span>
               <span className="date">Summer 2025</span>
             </div>
           </div>
@@ -173,9 +175,9 @@ function Experience() {
               time by 50% and improving CI/CD.
             </li>
           </ul>
-        </div>
+        </li>
 
-        <div className="experience-item">
+        <li className="experience-item">
           <div className="experience-heading">
             <div className="company-row">
               <img className="company-logo" src="/unc.png" alt="UNC logo" />
@@ -186,7 +188,7 @@ function Experience() {
               <span className="role">Information Technology Analyst</span>
               <span className="dot">•</span>
               <span className="team">OASIS</span>
-              <span className="date">Work-Study 2024-2025</span>
+              <span className="date">Work-Study 2024–2025</span>
             </div>
           </div>
 
@@ -200,7 +202,7 @@ function Experience() {
               improving resolution speed and reducing repeated support requests.
             </li>
           </ul>
-        </div>
+        </li>
       </ul>
     </section>
   );
