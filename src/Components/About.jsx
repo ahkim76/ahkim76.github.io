@@ -29,28 +29,20 @@ function About() {
 
           <div className="hero-buttons">
             <a
-              href="/resume.pdf"
+              href="https://linkedin.com/in/alex-h-kim"
               className="btn"
               target="_blank"
               rel="noreferrer"
             >
-              Download Resume
+              LinkedIn
             </a>
             <a
-              href="https://github.com/YOUR_GITHUB"
+              href="https://github.com/ahkim76"
               className="btn-outline"
               target="_blank"
               rel="noreferrer"
             >
               GitHub
-            </a>
-            <a
-              href="https://linkedin.com/in/alex-h-kim"
-              className="btn-outline"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
             </a>
             <a
               href="https://leetcode.com/u/poopitypoop/"

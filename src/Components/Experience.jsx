@@ -37,29 +37,32 @@ function Experience() {
               />
               <h3 className="company">Stripe</h3>
             </div>
-
             <div className="role-row">
               <span className="role">Software Engineer Intern</span>
               <span className="dot">•</span>
-              <span className="team">Developer Infrastructure Team</span>
+              <span className="team">Collaboration Engineering Team</span>
               <span className="date">Winter/Spring 2026</span>
             </div>
           </div>
 
           <ul className="experience-bullets">
             <li>
-              Built Ruby + GraphQL evaluation infra for Stripe’s internal search
-              engines used by 99% of engineers.
+              Built Ruby + Braintrust evaluation & calibration framework for an
+              internal search engine used by 99% of Stripe employees.
             </li>
             <li>
-              Implemented a repeatable offline eval harness to compare response
-              quality across models, prompts, and RAG retrieval configs,
-              enabling safe iteration.
+              Designed LLM-as-judge scoring pipelines across 125 stratified
+              queries, enabling automated quality regression testing before
+              production deploys.
             </li>
             <li>
-              Designed LLM-as-judge scoring with baseline diffing over a 100+
-              query dataset in MongoDB, informing production search tuning and
-              platform adoption.
+              Reduced eval runtime by 60% via async gRPC concurrency,
+              parallelizing calls per query across 875 total calls.
+            </li>
+            <li>
+              Optimized GraphQL queries over 400K+ MongoDB chat threads,
+              implementing indexed pagination and projections to support 5,000+
+              weekly users with low-latency retrieval.
             </li>
           </ul>
         </li>
@@ -86,8 +89,8 @@ function Experience() {
           <ul className="experience-bullets">
             <li>
               Generated multi-step reasoning trajectories for fine-tuning of
-              Meta’s Code World Model (CWM), guiding the LLM through analysis,
-              coding, debugging, and evaluation steps in ML workflows.
+              Meta’s Code World Model (CWM) and GPT-OSS, guiding LLMs through
+              analysis, coding, debugging, and evaluation steps in ML workflows.
             </li>
             <li>
               Corrected reasoning errors, invalid tool calls, and code execution
