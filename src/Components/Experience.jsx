@@ -7,6 +7,31 @@ function Experience() {
         <li className="experience-item">
           <div className="experience-heading">
             <div className="company-row">
+              <img
+                className="company-logo"
+                src="/openai.png"
+                alt="OpenAI logo"
+              />
+              <h3 className="company">OpenAI</h3>
+            </div>
+
+            <div className="role-row">
+              <span className="role">
+                Incoming Member of Technical Staff Intern
+              </span>
+              <span className="dot">•</span>
+              <span className="team">Not Team Matched Yet</span>
+              <span className="date">Fall 2026</span>
+            </div>
+          </div>
+
+          <ul className="experience-bullets">
+            <li>Incoming Fall 2026</li>
+          </ul>
+        </li>
+        <li className="experience-item">
+          <div className="experience-heading">
+            <div className="company-row">
               <img className="company-logo" src="/apple.png" alt="Apple logo" />
               <h3 className="company">Apple</h3>
             </div>

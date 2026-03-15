@@ -18,7 +18,7 @@ function About() {
             building internal tools and search engines used by thousands of
             engineers and product teams. This summer, I'll be at Apple working
             on services behind the App Store, Apple Music, Apple TV, Podcasts,
-            etc.
+            etc. This fall I'll be joining OpenAI.
           </p>
 
           <p className="hero-contact">
