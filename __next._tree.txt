@@ -1,0 +1,12 @@
+:HL["/_next/static/chunks/0vaqjwagb_ldv.css","style"]
+:HL["/mochi.webp","image"]
+:HL["/alex-kim.jpeg","image"]
+:HL["/logos/openai.svg","image"]
+:HL["/logos/apple.svg","image"]
+:HL["/logos/stripe-new.png","image"]
+:HL["/logos/mercor.svg","image"]
+:HL["/logos/toshiba.svg","image"]
+:HL["/logos/dematic.svg","image"]
+:HL["/logos/unc.jpg","image"]
+:HL["/logos/chick-fil-a.svg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"dAJc76mN2YPri_-NFlH7l"}
