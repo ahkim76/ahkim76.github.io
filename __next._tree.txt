@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/0dmjv90k0q1fv.css","style"]
+:HL["/_next/static/chunks/0svozb9r00r2w.css","style"]
 :HL["/mochi.webp","image"]
 :HL["/alex-kim.jpeg","image"]
 :HL["/logos/openai.svg","image"]
@@ -9,4 +9,4 @@
 :HL["/logos/dematic.svg","image"]
 :HL["/logos/unc.jpg","image"]
 :HL["/logos/chick-fil-a.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"InVnWlpFkQWkkaSxWdcnd"}
+0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}},"staleTime":300,"buildId":"QcTJNXaXrE-_t0HZq8AQ-"}
